@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment & Secrets (This is the most important thing here)
+.env
+.env.*
+!.env.example
+client-secrets.json
+*-credentials.json
+credentials.json
+secrets.json
+*.pem
+*.key
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
